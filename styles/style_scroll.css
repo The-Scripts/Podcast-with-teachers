@@ -1,0 +1,22 @@
+::-webkit-scrollbar{
+	width: 12px;
+	height: 12px;
+}
+::-webkit-scrollbar-track{
+	background: whitesmoke;
+	border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb{
+	background: silver;
+	border-radius: 100vw;
+	border: solid 1px whitesmoke;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: rgb(168, 167, 177);
+}
+@supports (scrollbar-color: red blue){
+	*{
+		scrollbar-color: silver whitesmoke;
+		scrollbar-width: 12px;
+	}
+}

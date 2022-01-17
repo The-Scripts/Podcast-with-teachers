@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<title>Podcast - Player</title>
+	
+	<meta name="description" content="Portfolio - ArcySanta" />
+	<meta name="keywords" content="wystawa, grafika, projekt, resourcespack, animacja" />
+	<meta name="author" content="Patryk Ruzicki">
+	
+	<!--<link rel="stylesheet" href="css_bt/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">-->
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<link href="styles/style.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/style_podcast.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/style_scroll.css" rel="stylesheet" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href="fontello_fonts/css/fontello.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+	
+	
+	<div class="wrapper">
+
+		<!--######################### Header #########################-->
+		<div class="header">
+		
+			<div class="logo">
+				<a href="index.html" ><img src="img/Icone.png" width="75px" height="75px" style="float: left; border-radius: 50%;"/>
+					<span style="color: #e2d1c3">Pod</span><span style="color: whitesmoke">cast</span></a>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		<!--####################### Navigation #######################-->
+		<div class="nav">
+			<ol>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="podcast.html">Podcasty</a>
+					<!--<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>-->
+				</li>
+				<li><a href="#">Materiały</a>
+					<!--<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>-->
+				</li>
+				<li><a href="#">O projekcie</a></li>
+				<li><a href="www/index.html">O autorach</a></li>
+			</ol>
+		
+		</div>
+
+		<!--####################### Main Content #######################-->
+		<div class="content">
+
+
+
+
+
+
+			<!--Podcast box-->
+			<input type="file" id="file" accept="audio/mp3,audio/ogg" multiple>
+	<article id="music-player">
+		<audio id="player">
+		</audio>
+
+		<section id="music-content">
+			<div id="album-picture">
+				<img src="raw/1.jpg" id="picture">
+			</div>
+
+			<span id="add-music" title="添加音乐"><i class="fa fa-upload" aria-hidden="true"></i></span>
+
+			<div>
+				<h3 id="music-title">Welcome to you!</h3>
+				<p id="music-singer"></p>
+			</div>
+
+			<div id="music-control">
+				<button id="music-stop">
+					<i class="fa fa-play" aria-hidden="true" id="control-icon"></i>
+				</button>
+
+				<button id="music-pre" title="上一首">
+					<i class="fa fa-fast-backward" aria-hidden="true"></i>
+				</button>
+
+				<button id="music-next" title="下一首">
+					<i class="fa fa-fast-forward" aria-hidden="true"></i>
+				</button>
+
+				<div id="sound-icon">					
+					<i class="fa fa-volume-up" aria-hidden="true" id="volume"></i>
+					<i class="fa fa-minus-circle" aria-hidden="true" id="volume-down" title="降低"></i>
+					<progress value="10" max="10" id="music-sound"></progress>
+					<i class="fa fa-plus-circle" aria-hidden="true" id="volume-up" title="提高"></i>
+				</div>
+			</div>
+		</section>
+		<aside>
+			<div><progress value="0" max="100" id="music-progress"></progress></div>
+			<span id="current-time">0:00</span><span id="duration">/0:00</span>
+			<img src="" id="play-style-loop" title="" class="">	
+			<img src="raw/random.png" id="play-style-random" title="" class="hidden">	
+		</aside>
+	</article>
+
+	
+		<ul id="musics"></ul>
+	
+
+	<script src="app.js"></script>
+		  
+			  <script src="podcast.js"></script>
+
+
+		<!--########################## Footer ##########################-->
+		<div style="clear: both;"></div>
+		<div class="footer">
+			<div class="footer_text">2022 - 2026 &copy; Wszelkie prawa zastrzeżone.</div> 
+			
+
+			<div style="margin-right: 25px; width: 200px; float: right;">
+				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-github-circled" title=" "></i></a></p>
+				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-youtube" title=" "></i></a></p>
+				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-spotify" title=" "></i></a></p> 
+			</div>
+			<a href="#TopSite"><div class="totop">Do góry</div></a>
+		</div>
+	</div>
+	
+	<!--<script src="jquery-1.11.3.min.js"></script>
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+	</script>-->
+	
+</body>
+</html>
