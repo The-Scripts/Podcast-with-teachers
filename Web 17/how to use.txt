@@ -1,0 +1,9 @@
+follow few steps:-
+
+1) You have to create 2 folder (music, img). { Remember:- You have to use Exact name }
+
+2) You have to rename the songs name into (song1,song2,song3,...like this) & place all the songs into the (music) folder.
+
+3) Also rename the images name into (img1,img2,img3,...like this) & place all the images into the (img) folder. 
+
+[important:- All the images you will have must be in JPG format].
