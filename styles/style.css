@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(concrete_wall.png);
+	background: linear-gradient(90deg, #868f96 0%, #596164 100%);
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
@@ -45,14 +45,9 @@ a:hover
 	width: 100%;
 	padding: 10px 0;
 	background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);
-	box-shadow: #e2d1c3 0px 0px 10px;
 	text-align: center;
 	/*border-top: 1px solid #04dbc5;
 	border-bottom: 1px solid #04dbc5;*/
-}
-
-span {
-	text-shadow: #e2d1c3 0px 0px 5px;
 }
 
 .content
