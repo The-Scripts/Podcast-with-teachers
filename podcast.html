@@ -73,35 +73,42 @@
 
 
 			<!--Podcast box-->
-			<!--<div class="music-container" id="music-container">
-				<div class="music-info">
-				  <h4 id="title"></h4>
-				  <div class="progress-container" id="progress-container">
-					<div class="progress" id="progress"></div>
+			
+				
+		  
+			   <!--- right part --->
+				 <div class="right">
+		  
+				 <!--- song title & artist name --->
+				<p id="title">title.mp3</p>
+				<p id="artist">Artist name</p>
+		  
+				<!--- middle part --->
+					 <div class="middle">
+					   <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+					   <div class="volume">
+						<p id="volume_show">90</p>
+						<i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+						<input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+					 </div>
+					</div>
+		  
+				 <!--- song duration part --->
+				  <div class="duration">
+					 <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
 				  </div>
+					
 				</div>
 		  
-				<audio src="music/Waterflame - Glorious morning.mp3" id="audio"></audio>
 		  
-				<div class="img-container">
-				  <img src="images/Waterflame - Glorius morning.jpg" alt="music-cover" id="cover" />
-				</div>
-				<div class="navigation">
-				  <button id="prev" class="action-btn">
-					<i class="fas fa-backward"></i>
-				  </button>
-				  <button id="play" class="action-btn action-btn-big">
-					<i class="fas fa-play"></i>
-				  </button>
-				  <button id="next" class="action-btn">
-					<i class="fas fa-forward"></i>
-				  </button>
-				</div>
-			  </div>
-		  
-			  <script src="podcast.js"></script>-->
+			
 
 		</div>
+		<!--- Add javascript file --->
+		<script src="podcast.js"></script>
+
+
+
 		<!--########################## Footer ##########################-->
 		<div style="clear: both;"></div>
 		<div class="footer">
