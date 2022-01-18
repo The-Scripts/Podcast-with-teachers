@@ -6,15 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
-	<title>Podcast Player - ZSP9</title>
+	<title>Podcast - ZSP9</title>
 	
-	<meta name="description" content="Podcast" />
-	<meta name="keywords" content=" " />
+	<meta name="description" content="About Authors" />
+	<meta name="keywords" content="podcast" />
 	<meta name="author" content="Patryk Ruzicki, Łukasz Stępień">
 	
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="styles/styleAboutAuthors.css" type="text/css">
 	<link href="styles/style.css" rel="stylesheet" type="text/css"/>
-	<link href="styles/style_podcast.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/style_scroll.css" rel="stylesheet" type="text/css"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="fontello_fonts/css/fontello.css" rel="stylesheet" type="text/css" />
@@ -28,6 +27,7 @@
 	<div class="wrapper">
 
 		<!--######################### Header #########################-->
+		<section id="TopSite" ></section>
 		<div class="header">
 		
 			<div class="logo">
@@ -65,39 +65,17 @@
 
 		<!--####################### Main Content #######################-->
 		<div class="content">
+			<div class="glassEffect">
+				<h1><span>Łukasz </span>Stępień</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum iusto autem corrupti nam aperiam saepe exercitationem cupiditate, tenetur nesciunt blanditiis, tempora laudantium! Consectetur ipsum voluptatum laborum maiores quidem at!</p>			</div>
+			</div>
 
-			<!--Podcast box-->				
-		  <div class="glassEffect">
-			   <!--- right part --->
-			<div class="right">
-		  
-				 <!--- song title & artist name --->
-				<p id="title">Podcast</p>
-				<p id="artist">Łukasz Stępień i Patryk Ruzicki</p>
-		  
-				<!--- middle part --->
-				<div class="middle">
-					<button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
-					<div class="volume">
-						<p id="volume_show">90</p>
-						<i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
-						<input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
-					</div>
-				
-		  
-					<!--- song duration part --->
-					<div class="duration">
-						<input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
-					</div>
-				</div>	<!--end div .middle-->
-			</div> <!-- end div .right-->
-
-		</div> <!--end div .glassEffect-->
-		<!--- Add javascript file --->
-		<script src="podcast.js"></script>
-		</div> <!--end div .content-->
-
-
+			<div class="glassEffect">
+				<h1><span>Patryk </span>Ruzicki</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque obcaecati atque quibusdam praesentium, omnis ipsum, esse in animi asperiores ut ratione eligendi ullam veniam. Ea dolore pariatur unde ipsam incidunt.</p>
+			</div>
+		
+		</div>
 		<!--########################## Footer ##########################-->
 		<div style="clear: both;"></div>
 		<div class="footer">
