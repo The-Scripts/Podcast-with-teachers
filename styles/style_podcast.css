@@ -1,18 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
-
-
 body{
-  background-image: url(concrete_wall.png);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
-  margin: 0;
 }
-
-
 .main button{
 	padding: 10px 12px;
 	margin: 0 10px;
@@ -30,7 +21,6 @@ body{
 
 /* left & right part */
 .right {
-  background-image: ;
 	position: relative;
 	height: 400px;
 	width: 100%;
@@ -39,15 +29,6 @@ body{
 	justify-content: center;
 	flex-direction: column;
 }
-
-/* song image */
-.left img{
-	height: 300px;
-	width: 80%;
-	border-radius: 15px;
-	box-shadow: 1px 0px 20px 12px rgba(240,240,240,0.2);
-}
-
 /* both range slider part */
 input[type="range"] {
 	-webkit-appearance: none;
