@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
-	<title>Podcast - Player</title>
+	<title>ArcySanta</title>
 	
 	<meta name="description" content="Portfolio - ArcySanta" />
 	<meta name="keywords" content="wystawa, grafika, projekt, resourcespack, animacja" />
@@ -14,8 +14,6 @@
 	
 	<!--<link rel="stylesheet" href="css_bt/bootstrap.min.css">
 	<link rel="stylesheet" href="main.css">-->
-	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="main.css">
 	<link href="styles/style.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/style_podcast.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/style_scroll.css" rel="stylesheet" type="text/css"/>
@@ -34,7 +32,7 @@
 		<div class="header">
 		
 			<div class="logo">
-				<a href="index.html" ><img src="img/Icone.png" width="75px" height="75px" style="float: left; border-radius: 50%;"/>
+				<a href="index.html"><img src="img/Icone.png" width="75px" height="75px" style="float: left; border-radius: 50%;"/>
 					<span style="color: #e2d1c3">Pod</span><span style="color: whitesmoke">cast</span></a>
 				<div style="clear:both;"></div>
 			</div>
@@ -75,59 +73,40 @@
 
 
 			<!--Podcast box-->
-			<input type="file" id="file" accept="audio/mp3,audio/ogg" multiple>
-	<article id="music-player">
-		<audio id="player">
-		</audio>
-
-		<section id="music-content">
-			<div id="album-picture">
-				<img src="raw/1.jpg" id="picture">
-			</div>
-
-			<span id="add-music" title="添加音乐"><i class="fa fa-upload" aria-hidden="true"></i></span>
-
-			<div>
-				<h3 id="music-title">Welcome to you!</h3>
-				<p id="music-singer"></p>
-			</div>
-
-			<div id="music-control">
-				<button id="music-stop">
-					<i class="fa fa-play" aria-hidden="true" id="control-icon"></i>
-				</button>
-
-				<button id="music-pre" title="上一首">
-					<i class="fa fa-fast-backward" aria-hidden="true"></i>
-				</button>
-
-				<button id="music-next" title="下一首">
-					<i class="fa fa-fast-forward" aria-hidden="true"></i>
-				</button>
-
-				<div id="sound-icon">					
-					<i class="fa fa-volume-up" aria-hidden="true" id="volume"></i>
-					<i class="fa fa-minus-circle" aria-hidden="true" id="volume-down" title="降低"></i>
-					<progress value="10" max="10" id="music-sound"></progress>
-					<i class="fa fa-plus-circle" aria-hidden="true" id="volume-up" title="提高"></i>
-				</div>
-			</div>
-		</section>
-		<aside>
-			<div><progress value="0" max="100" id="music-progress"></progress></div>
-			<span id="current-time">0:00</span><span id="duration">/0:00</span>
-			<img src="" id="play-style-loop" title="" class="">	
-			<img src="raw/random.png" id="play-style-random" title="" class="hidden">	
-		</aside>
-	</article>
-
-	
-		<ul id="musics"></ul>
-	
-
-	<script src="app.js"></script>
+			
+				
 		  
-			  <script src="podcast.js"></script>
+			   <!--- right part --->
+				 <div class="right">
+		  
+				 <!--- song title & artist name --->
+				<p id="title">title.mp3</p>
+				<p id="artist">Artist name</p>
+		  
+				<!--- middle part --->
+					 <div class="middle">
+					   <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+					   <div class="volume">
+						<p id="volume_show">90</p>
+						<i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+						<input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+					 </div>
+					</div>
+		  
+				 <!--- song duration part --->
+				  <div class="duration">
+					 <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+				  </div>
+					
+				</div>
+		  
+		  
+			
+
+		</div>
+		<!--- Add javascript file --->
+		<script src="podcast.js"></script>
+
 
 
 		<!--########################## Footer ##########################-->
