@@ -3,6 +3,7 @@
 
 
 body{
+  background-image: url(concrete_wall.png);
   display: flex;
   flex-direction: column;
   align-items: center;
