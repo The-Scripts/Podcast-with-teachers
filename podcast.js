@@ -1,12 +1,10 @@
 let play = document.querySelector('#play');
-let title = document.querySelector('#title');
 let recent_volume= document.querySelector('#volume');
 let volume_show = document.querySelector('#volume_show');
 let slider = document.querySelector('#duration_slider');
 let show_duration = document.querySelector('#show_duration');
 let present = document.querySelector('#present');
 let total = document.querySelector('#total');
-let artist = document.querySelector('#artist');
 
 
 
@@ -64,8 +62,6 @@ function load_track(index_no){
 	reset_slider();
 
 	track.src = All_song[index_no].path;
-	title.innerHTML = All_song[index_no].name;	
-    artist.innerHTML = All_song[index_no].singer;
     track.load();
 
 	timer = setInterval(range_slider ,1000);
