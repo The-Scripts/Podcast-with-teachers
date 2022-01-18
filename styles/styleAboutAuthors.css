@@ -1,0 +1,20 @@
+.glassEffect {
+    width: 1000px;
+    height: 150px;
+    padding: 20px;
+    background: rgba( 185, 228, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 #e2d1c3;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glassEffect h1 {
+    text-shadow: white 0px 0px 2px;
+}
+
+.glassEffect span {
+    color: #e2d1c3; 
+    text-shadow: #e2d1c3 0px 0px 2px;
+}
