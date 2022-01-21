@@ -13,12 +13,15 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
   background: rgba( 215, 240, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 #e2d1c3;
   backdrop-filter: blur( 3.5px );
   -webkit-backdrop-filter: blur( 3.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   
+}
+
+.glassEffect:hover {
+	box-shadow: 0 8px 32px 0 #e2d1c3;
 }
 
 .main button{
@@ -88,7 +91,7 @@ input[type="range"]::-webkit-slider-thumb{
 .volume i{
 	cursor: pointer;
 	padding: 8px 12px;
-	background: #FF8A65;
+	background: #e2d1c3;
 }
 .left .volume i:hover{
 	background: rgba(245,245,245,0.1);
@@ -171,7 +174,7 @@ input[type="range"]::-webkit-slider-thumb{
 	margin-left: 8px;
 }
 #play{
-	background: #FF8A65;
+	background: #e2d1c3;
   margin-top: 20px;
 }
 .right button:hover{
