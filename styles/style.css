@@ -39,7 +39,22 @@ a:hover
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: #e2d1c3 0px 0px 5px;
+	/*text-shadow: #e2d1c3 0px 0px 5px;*/
+	animation: neonAnim 2s alternate-reverse infinite;
+}
+@keyframes neonAnim {
+	from {
+		text-shadow:
+		  0 0 15px #e2d1c3,
+		  0 0 40px #d8c2b1,
+		  0 0 100px #d1b49c;
+	  }
+	  to {
+		text-shadow:
+		  0 0 10px #e2d1c3,
+		  0 0 25px #d8c2b1,
+		  0 0 60px #d1b49c;
+	  }
 }
 .logo img{
 	position: relative;
@@ -51,12 +66,9 @@ a:hover
 	padding: 10px 0;
 	background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);
 	text-align: center;
-	
+	box-shadow: #e2d1c3 0px 0px 10px;
 	/*border-top: 1px solid #04dbc5;
 	border-bottom: 1px solid #04dbc5;*/
-}
-.nav:hover {
-	box-shadow: #e2d1c3 0px 0px 10px;
 }
 .content
 {

@@ -1,23 +1,23 @@
 body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .glassEffect {
-  position: relative;
+	position: relative;
 	height: 400px;
 	width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background: rgba( 215, 240, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 #e2d1c3;
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: rgba( 215, 240, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 #e2d1c3;
+	backdrop-filter: blur( 3.5px );
+	-webkit-backdrop-filter: blur( 3.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
   
 }
 
@@ -41,7 +41,7 @@ body{
 	position: relative;
 	height: 400px;
 	width: 100%;
-  display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -113,7 +113,7 @@ input[type="range"]::-webkit-slider-thumb{
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;	
-  display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
@@ -172,7 +172,7 @@ input[type="range"]::-webkit-slider-thumb{
 }
 #play{
 	background: #FF8A65;
-  margin-top: 20px;
+	margin-top: 20px;
 }
 .right button:hover{
 	background: #FF8A65;
@@ -183,18 +183,18 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 .right .show_song_no{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 12px;
-  color: #fff;
-  border-radius: 5px;
-  background: rgba(255,255,255,0.2);
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 12px;
+	color: #fff;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.2);
 }
 .right .show_song_no p:nth-child(2){
 	margin: 0 5px;
