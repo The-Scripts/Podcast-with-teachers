@@ -51,9 +51,12 @@ a:hover
 	padding: 10px 0;
 	background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);
 	text-align: center;
-	box-shadow: #e2d1c3 0px 0px 10px;
+	
 	/*border-top: 1px solid #04dbc5;
 	border-bottom: 1px solid #04dbc5;*/
+}
+.nav:hover {
+	box-shadow: #e2d1c3 0px 0px 10px;
 }
 .content
 {
