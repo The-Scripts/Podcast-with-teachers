@@ -4,12 +4,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-
-
-.content {
-  padding: 0px;
-}
-
 .glassEffect {
   position: relative;
 	height: 400px;
