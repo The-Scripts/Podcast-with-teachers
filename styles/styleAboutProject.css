@@ -1,6 +1,6 @@
 .glassEffect {
     width: 1000px;
-    height: 200px;
+    height: auto;
     padding: 20px;
     margin-top: 50px;
     background: rgba( 185, 228, 255, 0.25 );
