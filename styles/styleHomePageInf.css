@@ -26,8 +26,9 @@
 	text-shadow: #e2d1c3;
 }
 
-.glassEffect p.rank {
+.glassEffect p.category {
     color: #fab95f;
     text-shadow: #fad85f 0px 0px 2px;
     font-size: 20px;
 }
+

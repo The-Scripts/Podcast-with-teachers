@@ -140,7 +140,8 @@ ol > li:first-child
 
 ol > li:hover > a
 {
-	color: #d0b5cb;
+	color: #fab95f;
+	text-shadow:  #fad85f 0px 0px 2px;
 }
 
 ol > li > ul
