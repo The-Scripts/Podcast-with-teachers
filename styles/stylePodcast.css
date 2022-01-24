@@ -8,21 +8,14 @@ body{
 	position: relative;
 	height: 400px;
 	width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background: rgba( 215, 240, 255, 0.25 );
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  
+	margin-left: auto;
+  	margin-right: auto;
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ 	background: rgba( 215, 240, 255, 0.25 );
+ 	backdrop-filter: blur( 3.5px );
+ 	-webkit-backdrop-filter: blur( 3.5px );
 }
-
-.glassEffect:hover {
-	box-shadow: 0 8px 32px 0 #e2d1c3;
-}
-
 .main button{
 	padding: 10px 12px;
 	margin: 0 10px;

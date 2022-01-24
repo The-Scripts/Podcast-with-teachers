@@ -25,7 +25,7 @@ a:hover
 {
 	width: 100%;
 }
-.header
+header
 {
 	width:100%;
 	padding: 40px 0;
@@ -47,13 +47,14 @@ a:hover
 		text-shadow:
 		  0 0 15px #e2d1c3,
 		  0 0 40px #d8c2b1,
-		  0 0 100px #d1b49c;
+		  0 0 80px #d1b49c;
 	  }
 	  to {
 		text-shadow:
 		  0 0 10px #e2d1c3,
 		  0 0 25px #d8c2b1,
-		  0 0 60px #d1b49c;
+		  0 0 35px #d1b49c,
+		  0 0 60px #b49a67;
 	  }
 }
 .logo img{
@@ -64,7 +65,8 @@ a:hover
 { 
 	width: 100%;
 	padding: 10px 0;
-	background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);
+	/*background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);*/
+	background-color: #e2d1c3;
 	text-align: center;
 	box-shadow: #e2d1c3 0px 0px 10px;
 	/*border-top: 1px solid #04dbc5;
@@ -83,7 +85,7 @@ a:hover
 	font-size: 18px;
 
 }
-.footer
+footer
 {
 	background-color: #22222c;
 	padding-left: 30px;
