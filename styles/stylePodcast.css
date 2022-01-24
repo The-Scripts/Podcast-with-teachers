@@ -167,7 +167,7 @@ input[type="range"]::-webkit-slider-thumb{
 }
 #play{
 	background: #e2d1c3;
-  margin-top: 20px;
+ 	margin-top: 20px;
 }
 .right button:hover{
 	background: #FF8A65;
