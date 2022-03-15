@@ -39,9 +39,9 @@
 			<ol>
 				<li><a href="index.html">Strona główna</a></li>
 				<li><a href="podcast.html">Podcasty</a>	</li>
-				<li><a href="#">Materiały</a></li>
-				<li><a href="aboutProject.html">O projekcie</a></li>
-				<li><a href="aboutAuthors.html">O autorach</a></li>
+				<li><a href="#">Newsy</a></li>
+				<li><a href="aboutProject.html">Terminarz</a></li>
+				<li><a href="aboutAuthors.html">O nas</a></li>
 			</ol>
 		</div>
 
@@ -70,12 +70,14 @@
 			<div class="footer_text">2022 - 2026 &copy; Wszelkie prawa zastrzeżone.</div> 
 			
 
-			<div style="margin-right: 25px; width: 200px; float: right;">
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-github-circled" title=" "></i></a></p>
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-youtube" title=" "></i></a></p>
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-spotify" title=" "></i></a></p> 
+			<div>
+				<a href="#TopSite"><div class="totop">Do góry</div></a>
+				<ul class="list-links">
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-github-circled" title=" "></i></li></li>
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-youtube" title=" "></i></a></li>
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-spotify" title=" "></i></a></li> 
+				</ul>
 			</div>
-			<a href="#TopSite"><div class="totop">Do góry</div></a>
 		</footer>
 	</div>
 	
@@ -84,19 +86,19 @@
 
 	$(document).ready(function() {
 	var NavY = $('.nav').offset().top;
-	 
+	
 	var stickyNav = function(){
 	var ScrollY = $(window).scrollTop();
-		  
+	
 	if (ScrollY > NavY) { 
 		$('.nav').addClass('sticky');
 	} else {
 		$('.nav').removeClass('sticky'); 
 	}
 	};
-	 
+	
 	stickyNav();
-	 
+	
 	$(window).scroll(function() {
 		stickyNav();
 	});
