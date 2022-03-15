@@ -190,6 +190,14 @@ footer {
 	z-index: 100;
 }
 
+/* contact */
+.contact {
+	position: absolute;
+	font-size: 16px;
+	right: 45%;
+	top: 40%;
+}
+
 /* social media */
 .list-links {
 	margin-right: 20px;
