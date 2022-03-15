@@ -11,6 +11,8 @@
     -webkit-backdrop-filter: blur( 10px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 	float: left;
+
+    transition: 0.75s;
 }
 
 .glassEffect:hover {

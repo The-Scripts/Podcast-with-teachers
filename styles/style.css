@@ -7,29 +7,38 @@ body
 	margin: 0 !important;
 	padding: 0 !important;
 }
-hr{
+
+hr
+{
 	color: white;
 	background-color: white;
 }
+
+/* color links in article */
 a
 {
-	color: #76d3bd;
+	color: #e2d1c3;
 	text-decoration: none;
 }
+
 a:hover
 {
 	color: whitesmoke;
 	text-decoration: none;
 }
+
+/* all content*/
 .wrapper
 {
 	width: 100%;
 }
+
 header
 {
 	width:100%;
 	padding: 40px 0;
 }
+
 .logo
 {
 	position: relative;
@@ -39,9 +48,9 @@ header
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	/*text-shadow: #e2d1c3 0px 0px 5px;*/
 	animation: neonAnim 2s alternate-reverse infinite;
 }
+
 @keyframes neonAnim {
 	from {
 		text-shadow:
@@ -57,22 +66,23 @@ header
 		  0 0 60px #b49a67;
 	  }
 }
-.logo img{
+
+.logo img
+{
 	position: relative;
 	left: 75px;
 }
+
 .nav
 { 
 	width: 100%;
 	padding: 10px 0;
-	/*background: linear-gradient(90deg, #e2d1c3 0%, #fdfcfb 50%, #e2d1c3 100%);*/
 	background-color: #e2d1c3;
 	text-align: center;
 	box-shadow: #e2d1c3 0px 0px 10px;
-	/*border-top: 1px solid #04dbc5;
-	border-bottom: 1px solid #04dbc5;*/
 }
-.content
+
+.content 
 {
 	width: 1000px;
 	padding-top: 50px;
@@ -85,6 +95,7 @@ header
 	font-size: 18px;
 
 }
+
 footer
 {
 	background-color: #22222c;
@@ -92,6 +103,7 @@ footer
 	padding-top: 30px;
 	height: 70px;
 }
+
 .footer_text
 {
 	float: left;
@@ -99,6 +111,7 @@ footer
 	color: rgb(184, 184, 184);
 	margin-top: 10px;
 }
+
 .sticky
 {
 	width: 100%;
@@ -107,6 +120,7 @@ footer
 	top: 0;
 	z-index: 100;
 }
+
 ol
 {
 	padding: 0;
@@ -117,28 +131,34 @@ ol
 	line-height: 200%;
 	display: inline-block;
 }
+
 ol a
 {
 	color: #868f96;
 	text-decoration: none;
 	display: block;
 }
+
 ol > li
 {
 	float: left;
 	width: 150px;
 	height: 40px;
 	border-right: 1px solid #868f96;
+
+	
 }
+
+ol > li > a
+{
+	transition: 0.5s;
+}
+
 ol > li:first-child
 {
 	border-left: 1px solid #868f96;
 }
 
-/*ol > li:hover
-{
-	background-color: #04dbb5;
-}*/
 
 ol > li:hover > a
 {
@@ -146,38 +166,8 @@ ol > li:hover > a
 	text-shadow:  #fad85f 0px 0px 2px;
 }
 
-ol > li > ul
-{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	height: 40px;
-	display: none;
-}
 
-ol > li:hover > ul
-{
-	display: block;
-}
-
-ol > li > ul > li
-{
-	background-color:#4b576a;
-	position: relative;
-	z-index: 100;
-	border-top: 1px solid #3d485a;
-}
-
-ol > li > ul > li:hover
-{
-	background-color: #516075;
-}
-
-ol > li > ul > li:hover > a
-{
-	color: #76d3bd;
-}
-
+/* social media */
 a.sociallink
 {
 	color: #ffffff;
