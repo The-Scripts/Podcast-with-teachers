@@ -181,6 +181,7 @@ footer {
 	display: flex;
 	position: relative;
 	justify-content: space-between;
+	min-width: 760px;
 }
 
 .footer_text {
@@ -195,6 +196,13 @@ footer {
 	left: 0;
 	top: 0;
 	z-index: 100;
+}
+
+/* contact */
+.contact {
+	position: relative;
+	font-size: 16px;
+	left: -100px;
 }
 
 /* social media */
@@ -247,5 +255,9 @@ a.sociallink:hover {
 	.banner img {
 		height: 190px;
 		width: 760px;
+	}
+
+	.footer_text {
+		width: 250px;
 	}
 }
