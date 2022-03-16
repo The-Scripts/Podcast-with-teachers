@@ -5,6 +5,15 @@ table of contents
     3. aboutProject.html
     4. aboutAuthors.html
 
+2. css
+    1. style.css
+    2. styleAboutAuthors.css
+    3. styleAboutProjects.css
+    4. styleHomePageInf.css
+    5. stylePodcast.css
+    6. styleScroll.css
+
+
 # files of html
 
 ## index.html
@@ -185,3 +194,7 @@ Div with p is responsible for icon.
 A with .totop is responsible for scroll to top.
 
 And script to keep navi bar on screen when scrolling down.
+
+
+# podcast player
+Copied from YT: https://bit.ly/3tdPJ89

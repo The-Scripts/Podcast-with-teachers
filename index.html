@@ -21,9 +21,6 @@
 </head>
 
 <body>
-
-	
-	
 	<div class="wrapper">
 
 		<!--######################### Header #########################-->
@@ -35,68 +32,68 @@
 			</div>
 		</header>
 		<!--####################### Navigation #######################-->
-		<div class="nav">
+		<nav>
 			<ol>
 				<li><a href="index.html">Strona główna</a></li>
 				<li><a href="podcast.html">Podcasty</a>	</li>
-				<li><a href="#">Materiały</a></li>
-				<li><a href="aboutProject.html">O projekcie</a></li>
-				<li><a href="aboutAuthors.html">O autorach</a></li>
+				<li><a href="#">Newsy</a></li>
+				<li><a href="aboutProject.html">Terminarz</a></li>
+				<li><a href="aboutAuthors.html">O nas</a></li>
 			</ol>
-		</div>
+		</nav>
 
 		<!--####################### Main Content #######################-->
-		<div class="content">
+		<main>
 			
 			<!-- Banner -->
-			<a href="#" ><img src="img/BannerGif.gif" alt="Błąd wczytywania pliku" style="border-radius: 15px;"></a>
+			<a class="banner" href="#" ><img src="img/BannerGif.gif" alt="Błąd wczytywania pliku" style="border-radius: 15px;"></a>
 			<!-- Content -->
 			
-			<div class="glassEffect">
+			<article class="glassEffect">
 				<h1><span>Tytuł</span> . </h1>
 				<p class="category">Kategoria</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum iusto autem corrupti nam aperiam saepe exercitationem cupiditate, tenetur nesciunt blanditiis, tempora laudantium! Consectetur ipsum voluptatum laborum maiores quidem at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, facilis magnam. Laudantium iusto blanditiis modi non reiciendis provident accusantium esse necessitatibus, ipsum in totam officia distinctio praesentium, voluptatem ea illum? </p>
-			</div>
-			<div class="glassEffect">
+			</article>
+			<article class="glassEffect">
 				<h1><span>Tytuł</span> . </h1>
 				<p class="category">Kategoria</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum iusto autem corrupti nam aperiam saepe exercitationem cupiditate, tenetur nesciunt blanditiis, tempora laudantium! Consectetur ipsum voluptatum laborum maiores quidem at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, facilis magnam. Laudantium iusto blanditiis modi non reiciendis provident accusantium esse necessitatibus, ipsum in totam officia distinctio praesentium, voluptatem ea illum? </p>
-			</div>
-		
-		</div>
+			</article>
+		</main>
 		<!--########################## Footer ##########################-->
-		<div style="clear: both;"></div>
 		<footer>
 			<div class="footer_text">2022 - 2026 &copy; Wszelkie prawa zastrzeżone.</div> 
 			
-
-			<div style="margin-right: 25px; width: 200px; float: right;">
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-github-circled" title=" "></i></a></p>
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-youtube" title=" "></i></a></p>
-				<p class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-spotify" title=" "></i></a></p> 
+			<div><a class="contact" href="mailto:sandcraftisbroken@gmail.com"><i class="icon-mail-alt"></i> Napisz do nas</a></div>
+			<div>
+				<a href="#TopSite"><div class="totop">Do góry</div></a>
+				<ul class="list-links">
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-github-circled" title=" "></i></a></i></li>
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-youtube" title=" "></i></a></li>
+					<li class="socialicons"><a href="#" target="_blank" style="color: whitesmoke;"><i class="icon-spotify" title=" "></i></a></li> 
+				</ul>
 			</div>
-			<a href="#TopSite"><div class="totop">Do góry</div></a>
 		</footer>
-	</div>
+	</div> <!-- end of .wrapper -->
 	
 	<!--<script src="scripts/jquery-1.11.3.min.js"></script>
 	<script>
 
 	$(document).ready(function() {
 	var NavY = $('.nav').offset().top;
-	 
+	
 	var stickyNav = function(){
 	var ScrollY = $(window).scrollTop();
-		  
+	
 	if (ScrollY > NavY) { 
 		$('.nav').addClass('sticky');
 	} else {
 		$('.nav').removeClass('sticky'); 
 	}
 	};
-	 
+	
 	stickyNav();
-	 
+	
 	$(window).scroll(function() {
 		stickyNav();
 	});
