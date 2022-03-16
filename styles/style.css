@@ -250,7 +250,6 @@ a.sociallink:hover {
 	background: linear-gradient(90deg, #96a0a7 0%, #707a7d 100%);
 	color: #ebdce8;
 }
-
 @media (max-width: 1000px) {
 	.banner img {
 		height: 190px;
@@ -259,5 +258,10 @@ a.sociallink:hover {
 
 	.footer_text {
 		width: 250px;
+	}
+}
+@media all and (max-width: 500px){
+	body{
+		color:whitesmoke;
 	}
 }

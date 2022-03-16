@@ -1,8 +1,9 @@
 ::-webkit-scrollbar{
-	width: 12px;
-	height: 12px;
+	width: 11px;
+	height: 11px;
 }
 ::-webkit-scrollbar-track{
+	opacity: 0%;
 	background: whitesmoke;
 	border-radius: 100vw;
 }
