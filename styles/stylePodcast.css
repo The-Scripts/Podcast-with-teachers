@@ -9,20 +9,6 @@ body{
 	justify-content: center;
 }
 
-.main button{
-	padding: 10px 12px;
-	margin: 0 10px;
-}
-.main #logo{
-	position: absolute;
-	top: 10px;
-	left: 30px;
-	font-size: 25px;
-	color: #ccc;
-}
-.main #logo i{
-	margin-right: 15px;
-}
 
 .glassEffect {
     width: 65%;
