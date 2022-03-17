@@ -11,7 +11,7 @@ body{
 
 
 .glassEffect {
-    width: 65%;
+    width: 50%;
 }
 
 /* podcast player part */
@@ -71,7 +71,7 @@ input[type="range"]::-webkit-slider-thumb{
 	background: rgba(245,245,245,0.1);
 }
 .volume #volume_show{
-	padding: 8px 12px;
+	padding: 9px 13px;
 	margin: 0 5px 0 0;
 	background: rgba(245,245,245,0.1);
 }
