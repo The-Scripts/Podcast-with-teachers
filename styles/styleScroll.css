@@ -4,20 +4,23 @@
 }
 ::-webkit-scrollbar-track{
 	opacity: 0%;
-	background: whitesmoke;
-	border-radius: 100vw;
+	background: #323339;
+	/* border-radius: 100vw; */
+	
 }
 ::-webkit-scrollbar-thumb{
-	background: silver;
+	background: #757885;
 	border-radius: 100vw;
-	border: solid 1px whitesmoke;
+	opacity: 0%;
+	/* border: double 2px silver; */
 }
 ::-webkit-scrollbar-thumb:hover{
-	background: rgb(168, 167, 177);
+	background: #858896;
 }
 @supports (scrollbar-color: red blue){
 	*{
-		scrollbar-color: silver whitesmoke;
+		scrollbar-color: #757885;
 		scrollbar-width: 12px;
+		/* scrollbar-color: silver #878787; */
 	}
 }
