@@ -13,7 +13,6 @@ table of contents
     5. stylePodcast.css
     6. styleScroll.css
 
-
 # files of html
 
 ## index.html
@@ -42,9 +41,7 @@ In this class is logo and next to logo is text "Podcast".
 .content (Main Content).
 In this class is all content.
 
-
 Animate Banner
-
 
 .glassEffect
 This class is responsible for glass effect (background article) and size of article.
@@ -62,9 +59,6 @@ A with .totop is responsible for scroll to top.
 
 And script to keep navi bar on screen when scrolling down.
 
-
-
-
 ## podcast.html
 link with: 
 1. styles/style.css (main style)
@@ -73,7 +67,6 @@ link with:
 4. Google Fonts (font)
 5. Fontello (icon)
 6. (icon)
-
 
 ### .wrapper 
 Connect #TopSite (header), .nav (navigation), .content (Main Content), footer.
@@ -107,9 +100,6 @@ Div with p is responsible for icon.
 A with .totop is responsible for scroll to top.
 
 And script to keep navi bar on screen when scrolling down.
-
-
-
 
 ## aboutProject.html
 link with: 
@@ -152,8 +142,6 @@ A with .totop is responsible for scroll to top.
 
 And script to keep navi bar on screen when scrolling down.
 
-
-
 ## aboutAuthors.html
 Link with: 
 1. styles/styleAboutAuthors.css (style for aboutAuthors.html)
@@ -194,7 +182,6 @@ Div with p is responsible for icon.
 A with .totop is responsible for scroll to top.
 
 And script to keep navi bar on screen when scrolling down.
-
 
 # podcast player
 Copied from YT: https://bit.ly/3tdPJ89
