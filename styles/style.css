@@ -4,8 +4,7 @@
 }
 
 body {
-	background-color: #323339;
-	/*background-image: url(../img/concrete_wall.png);*/
+	background-color: #5b0c67;
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
@@ -21,7 +20,7 @@ hr{
 
 /* color links in article */
 a{
-	color: #e2d1c3;
+	color: #c129cf;
 	text-decoration: none;
 	transition: all 0.5s;
 }
@@ -37,27 +36,21 @@ a:hover {
 }
 
 header {
-	width:100%;
-	padding: 40px 0;
+	width:(100% - 40px);
+	padding-top: 40px;
+	padding-left: 40px;
 }
 
 .logo {
 	position: relative;
-	right: 50px;
-	width: 450px;
-	font-size: 58px;
+	right: 40px;
+	width: 400px;
+	font-size: 60px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.logo::before {
-	content: 'Podcast';
-	position: absolute;
-	z-index: -1;
-	text-shadow: 0 0 30px #d1b49c, 0 0 30px #d1b49c, 0 0 150px #d1b49c;
-	animation: neonAnim 2s alternate-reverse infinite;
-}
 .logo img {
 	position: relative;
 	left: 75px;
@@ -66,9 +59,11 @@ header {
 nav { 
 	width: 100%;
 	padding: 10px 0;
-	background-color: #e2d1c3;
 	text-align: center;
-	box-shadow: #e2d1c3 0px 0px 10px;
+}
+.nowWhat{
+	color: #d5a6d3;
+	text-shadow:2px 2px 2px #c129cf;
 }
 
 ol {
@@ -83,7 +78,8 @@ ol {
 
 ol a {
 	position: relative;
-	color: #6a605f;
+	color: #ffffff;
+	text-shadow:2px 2px 2px #d5a6d3;
 	text-decoration: none;
 	display: block;
 }
@@ -92,7 +88,7 @@ ol a:hover {
 }
 ol > li {
 	float: left;
-	width: 150px;
+	width: 100px;
 	height: 40px;
 	border-right: 1px solid #868f96;
 }
@@ -238,10 +234,7 @@ a.sociallink:hover {
 	background: linear-gradient(90deg, #96a0a7 0%, #707a7d 100%);
 	color: #ebdce8;
 }
-.nowWhat{
-	color: #c19472;
-	text-shadow:2px 2px 2px #d1b49c;
-}
+
 
 /* Media adaptation */
 @media (max-width: 1000px) {
@@ -269,13 +262,5 @@ a.sociallink:hover {
 	100%{
 		opacity: 30%;
 		color: #b07f56;
-	}
-}
-@keyframes neonAnim {
-	0% {
-		opacity: 50%;
-	}
-	100%{
-		opacity: 100%;
 	}
 }
