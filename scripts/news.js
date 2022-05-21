@@ -1,19 +1,19 @@
-var articleDaysOfAMonth = document.getElementsByTagName("article")[1];
-var aYearAndAMonth = document.getElementById("aYearAndAMonth");
-var daysOfAMonth  = document.getElementById("daysOfAMonth");
-var date = new Date();
-var currentMonth = date.getMonth();
-var namesOfMonths = [
+let articleDaysOfAMonth = document.getElementsByTagName("article")[1];
+let aYearAndAMonth = document.getElementById("aYearAndAMonth");
+let daysOfAMonth  = document.getElementById("daysOfAMonth");
+let date = new Date();
+let currentMonth = date.getMonth();
+let namesOfMonths = [
     "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", 
     "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik",
     "Listopad, Grudzień"];
-var currentYear = date.getFullYear();
-var currentDay = date.getDate();
-var numberOfDaysInAMonth = [ 31, numberOfDaysInFebruary(date.getFullYear()), 31,
+let currentYear = date.getFullYear();
+let currentDay = date.getDate();
+let numberOfDaysInAMonth = [ 31, numberOfDaysInFebruary(date.getFullYear()), 31,
     30, 31, 30, 31, 31, 30, 31, 30, 31];
 
 function numberOfDaysInFebruary(year) {
-    var february;
+    let february;
     if (year % 4 === 0 || year % 100 === 0 || year % 400 === 0) {
         february = 29;
     }
@@ -25,8 +25,8 @@ function numberOfDaysInFebruary(year) {
 
 // creating day's divs
 for (let i = 0; i < numberOfDaysInAMonth[currentMonth]; i++) {
-    var div = document.createElement("div");
-    var divText = document.createTextNode(i+1);
+    let div = document.createElement("div");
+    let divText = document.createTextNode(i+1);
     div.appendChild(divText);
     daysOfAMonth.appendChild(div);
     div.id = "day" + (i + 1);
