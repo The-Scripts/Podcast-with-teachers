@@ -9,6 +9,7 @@ let namesOfMonths = [
     "Listopad, Grudzień"];
 let currentYear = date.getFullYear();
 let currentDay = date.getDate();
+let currentDayOfAWeek = date.getDay();
 let numberOfDaysInAMonth = [ 31, numberOfDaysInFebruary(date.getFullYear()), 31,
     30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -21,6 +22,13 @@ function numberOfDaysInFebruary(year) {
         february = 28;
     }
     return february;
+}
+
+if (currentDayOfAWeek > 0) {
+    for (let i = 0; i < currentDayOfAWeek; i++) {
+        let div = document.createElement("div");
+        daysOfAMonth.appendChild(div);
+    }
 }
 
 // creating day's divs
