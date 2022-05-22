@@ -1,3 +1,4 @@
+let news = document.querySelectorAll("dateOfAArticle");
 let articleDaysOfAMonth = document.getElementsByTagName("article")[1];
 let aYearAndAMonth = document.getElementById("aYearAndAMonth");
 let daysOfAMonth  = document.getElementById("daysOfAMonth");
@@ -47,3 +48,18 @@ aYearAndAMonth.textContent = namesOfMonths[currentMonth] + " " + currentYear;
 
 var lastDayOfTheMonth = numberOfDaysInAMonth[currentMonth];
 
+// link a day to a article
+switch (currentYear) {
+    case 2022:
+        switch (currentMonth) {
+            case 4:
+                let day10 = document.getElementById("day10");
+                day10.innerHTML = '<a href="#article10_05_2022">10</a>';
+                break;
+            default:
+                break;
+        }
+        break;
+    default:
+        break;
+}
