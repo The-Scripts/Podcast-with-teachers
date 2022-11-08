@@ -3,7 +3,7 @@
     School website project focused on integrating and getting to know teachers through student-led podcasts. 
     [only website, no podcasts]
     
-## 💻 • Demo site
+# 💻 • Demo site
 <a href="https://the-scripts.github.io/Podcast-with-teachers/" target="_blank"><img src="https://img.shields.io/badge/-Show Demo Site-%230077B5?style=for-the-badge&logo=html5&logoColor=white"></a> 
 
 #
